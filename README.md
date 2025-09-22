@@ -40,3 +40,6 @@ python -m venv .venv
 ### Step 1: Run the scraper (to refresh books.csv)
 ```powershell
 python .\scrape_books_to_scrape.py
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/streamlit-app-red)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
