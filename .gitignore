@@ -4,3 +4,5 @@ pycache/
 data/.csv
 data/*.db
 .streamlit/
+data/books.csv
+data/books.db
