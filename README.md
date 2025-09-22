@@ -1,45 +1,34 @@
-# Books to Scrape — End-to-End (Scrape → Clean → Analyze → Dashboard)
+# 📚 Books to Scrape — End-to-End (Scrape → Clean → Analyze → Dashboard)
 
-Educational project that scrapes [books.toscrape.com], cleans the data, stores it (CSV + SQLite), analyzes it, and visualizes insights in a Streamlit dashboard.
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-red)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-## Features
-- Requests + BeautifulSoup scraper with polite delays and retries
-- CSV output (`data/books.csv`) and **SQLite** database (`data/books.db`)
-- Pandas analysis (category counts, avg prices, rating distribution)
-- Streamlit dashboard with filters + export
+An educational project that scrapes [Books to Scrape](http://books.toscrape.com/), cleans the data, stores it (CSV + SQLite), analyzes it, and visualizes insights in a Streamlit dashboard.  
 
-## Quickstart
+---
+
+##  Features
+-  **Scraping**: BeautifulSoup scraper with polite delays & retries  
+-  **Data storage**: CSV (`data/books.csv`) + SQLite (`data/books.db`)  
+-  **Analysis**: Data cleaning and simple EDA  
+- **Dashboard**: Interactive Streamlit app for filtering, searching, and visualizing  
+
+---
+
+##  Installation
 
 ```bash
-# 1) Create & activate venv (Windows PowerShell)
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-# 2) Install deps
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-
-# 3) Scrape (writes data/books.csv)
-python scraper/scrape_books_to_scrape.py
-
-# 4) (Optional) Save to SQLite
-python scraper/save_to_sqlite.py
-
-# 5) Run dashboard
-python -m streamlit run app/streamlit_books_dashboard.py
-## Usage
-
-### 1. Clone and setup
-```bash
+# Clone the repository
 git clone https://github.com/22Ifeoma22/books-scrape-dashboard.git
 cd books-scrape-dashboard
-python -m venv .venv
-.venv\Scripts\activate   # Windows
-##  How to Run the Project
 
-### Step 1: Run the scraper (to refresh books.csv)
-```powershell
-python .\scrape_books_to_scrape.py
-![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
-![Streamlit](https://img.shields.io/badge/streamlit-app-red)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+# Create virtual environment (optional but recommended)
+python -m venv .venv
+.\.venv\Scripts\activate    # on Windows
+source .venv/bin/activate   # on Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
