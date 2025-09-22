@@ -32,3 +32,9 @@ source .venv/bin/activate   # on Mac/Linux
 # Install dependencies
 pip install -r requirements.txt
 
+## 📸 Visuals
+
+![Price Distribution](screenshots/price_hist.png)
+![Ratings Distribution](screenshots/rating_hist.png)
+![Top Categories](screenshots/top_categories.png)
+![Average Price by Category](screenshots/avg_price_by_category.png)
