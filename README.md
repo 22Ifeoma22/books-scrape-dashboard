@@ -27,3 +27,12 @@ python scraper/save_to_sqlite.py
 
 # 5) Run dashboard
 python -m streamlit run app/streamlit_books_dashboard.py
+## Usage
+
+### 1. Clone and setup
+```bash
+git clone https://github.com/22Ifeoma22/books-scrape-dashboard.git
+cd books-scrape-dashboard
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
