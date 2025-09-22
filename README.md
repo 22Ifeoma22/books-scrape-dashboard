@@ -35,4 +35,8 @@ git clone https://github.com/22Ifeoma22/books-scrape-dashboard.git
 cd books-scrape-dashboard
 python -m venv .venv
 .venv\Scripts\activate   # Windows
-pip install -r requirements.txt
+##  How to Run the Project
+
+### Step 1: Run the scraper (to refresh books.csv)
+```powershell
+python .\scrape_books_to_scrape.py
