@@ -1,4 +1,4 @@
-# 📚 Books to Scrape — End-to-End (Scrape → Clean → Analyze → Dashboard)
+#  Books to Scrape — End-to-End (Scrape → Clean → Analyze → Dashboard)
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-red)
